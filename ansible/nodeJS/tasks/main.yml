@@ -1,0 +1,6 @@
+- name: "Instala as dependências do Apache e PHP"
+  package:
+    name:
+      - nodejs12.18
+    state: latest
+  become: yes
